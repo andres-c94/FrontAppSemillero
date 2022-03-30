@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "./static/css/main.c6cbe986.chunk.css",
+    "main.js": "./static/js/main.84d98981.chunk.js",
+    "main.js.map": "./static/js/main.84d98981.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.2e1aca33.js",
+    "runtime-main.js.map": "./static/js/runtime-main.2e1aca33.js.map",
+    "static/css/2.150d169a.chunk.css": "./static/css/2.150d169a.chunk.css",
+    "static/js/2.318206e1.chunk.js": "./static/js/2.318206e1.chunk.js",
+    "static/js/2.318206e1.chunk.js.map": "./static/js/2.318206e1.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.150d169a.chunk.css.map": "./static/css/2.150d169a.chunk.css.map",
+    "static/css/main.c6cbe986.chunk.css.map": "./static/css/main.c6cbe986.chunk.css.map",
+    "static/js/2.318206e1.chunk.js.LICENSE.txt": "./static/js/2.318206e1.chunk.js.LICENSE.txt",
+    "static/media/login.css": "./static/media/COMPLETO_BLANCO.f2001b71.png",
+    "static/media/style_consulta.css": "./static/media/fondo.69ebc683.jpeg",
+    "static/media/index.css": "./static/media/fondo.aafb3515.png",
+    "static/media/proyectos.css": "./static/media/fondo_simple.69ebc683.jpeg",
+    "static/media/Foro.css": "./static/media/gafas.abf0b1d5.png",
+    "static/media/Primeros_Pasos.css": "./static/media/imagen_crearcuenta.419fcebc.png",
+    "static/media/Consulta_Usuario.css": "./static/media/uc-social-share.e2374f81.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e1aca33.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.318206e1.chunk.js",
+    "static/css/main.c6cbe986.chunk.css",
+    "static/js/main.84d98981.chunk.js"
+  ]
+}
