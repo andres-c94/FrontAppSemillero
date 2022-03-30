@@ -1,0 +1,102 @@
+.session {
+    position: absolute;
+    right: 1px;
+    margin-top: 30px;
+    margin-right: 33%;
+    width: 100%;
+    border-radius: 10px;
+    max-width: 450px;
+    height: 75vh;
+    background: -webkit-gradient(linear, left top, right top, from(#83B1CB), to(#0044B1));
+    background: linear-gradient(to right,#000,#000,#1d1b1b,#4b4a4a,#BEBEBE);
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s all ease;
+  }
+  .contentLogin {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+  .titleLogin12 {
+    font-size: 1.5em;
+    width: 100%;
+    margin-top: 28%;
+    font-family:"AvenirNextLTPro-Bold", Sans-serif;;
+    color: white;
+    text-align: center;
+  }
+  .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .input {
+    font-size: 1em;
+    color: black;
+    font-family: "AvenirNextLTPro-Light", Sans-serif;
+    margin: 6px 0 6px 0;
+    padding: 10px 15px;
+    background: white;
+    outline: none;
+    text-decoration: none;
+    border: 1px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .link3 {
+    text-decoration: none;
+  position: relative;
+  font-family: "AvenirNextLTPro-Bold", Sans-serif;
+  color: white;
+  background-color: #0079C1;
+  border: 1px solid #0079C1;
+  border-radius: 1px;
+  padding: 5px 15px;
+  margin:0 5px;
+  margin-left: 10% !important;
+  cursor: pointer;
+}
+.link3:hover {
+    color: #0079C1;
+    background-color: white;
+  }
+  .link3 {
+    position: relative;
+    font-family: "AvenirNextLTPro-Bold", Sans-serif;
+    text-decoration-color: white;
+    background-color: #0079C1;
+    border: 1px solid #0079C1;
+    border-radius: 1px;
+    padding: 5px 15px;
+    margin:0 5px;
+    margin-left: 10% !important;
+    cursor: pointer;
+}
+.link3 .hiper{
+    text-decoration: none;
+    color: white;
+}
+.link3 .hiper:hover {
+  color: #0079C1;
+  background-color: white;
+}
+  .opacidad{
+    position: absolute;
+  background-color:rgba(0, 0, 0, 0.767);
+  height: 103%;
+  width: 100%;
+}
+.imagenla{
+    background-image: url("../img/COMPLETO_BLANCO.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 280px;
+    width: 280px;
+    margin-left: 2%;
+    margin-top: -2%;
+  }

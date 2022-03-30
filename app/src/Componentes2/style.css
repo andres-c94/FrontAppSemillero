@@ -1,0 +1,26 @@
+/*Diseño de banner*/
+.banner{
+	background: linear-gradient(-90deg, #8E2DE2, #4A00E0);
+	padding-bottom: 20px;
+
+}
+/*Espacio de banner*/
+#banner{
+	padding-bottom: 20px;
+}
+/*Espacio entre tarjetas*/
+.col-sm-4{
+	padding: 25px;
+}
+
+#GestionDeProyectos{
+	padding-top: 70px;
+	padding-bottom: 5px;
+	font-family: "AvenirNextLTPro-Bold", Sans-serif;
+}
+/*Cuerpo de la Pagina*/
+#body{
+	background-image:url("./img/fondo.jpeg");
+	padding-bottom: 2.4%;
+}
+

@@ -1,0 +1,330 @@
+
+/*CARRUSEL*/
+.carousel-inner{
+    height: 400px; 
+    width: 1113px;
+}
+
+#contenidogeneral{
+    background-image:url("../img/fondo_simple.jpeg");
+}
+/*TARJETAS SECUNDARIAS*/
+
+.principal{
+    margin-top:50px;
+
+    font-family: 'Roboto';
+}
+
+
+
+/*tarjeta 2*/
+.card-header-second{
+    box-shadow:1px 7px 15px #a2a2a2;
+    margin:-25px -25px 0px -25px;
+    height: 90px;
+    /* background: linear-gradient(-90deg, #8E2DE2, #4A00E0);  */
+}
+#aaaa{
+    background-image: url("https://i.imgur.com/G4XK5Zm.png") ; 
+    background-size: auto;
+    height: 90px;
+    /* opacity: 0.6; */
+}
+.aazul{
+    background-image: url("https://geoapps.esri.co/Recursos/appSemillero/bannerTematicosAzul.svg") !important; 
+    background-size: auto;
+    height: 90px;
+    /* opacity: 0.6; */
+}
+.amorado{
+    background-image: url("https://geoapps.esri.co/Recursos/appSemillero/bannerTematicosMorado.svg") !important; 
+    background-size: auto;
+    height: 90px;
+    /* opacity: 0.6; */
+}
+.averde{
+    background-image: url("https://geoapps.esri.co/Recursos/appSemillero/bannerTematicosVerde.svg") !important; 
+    background-size: auto;
+    height: 90px;
+    /* opacity: 0.6; */
+}
+.agris{
+    background-image: url("https://geoapps.esri.co/Recursos/appSemillero/Tematico.svg") !important; 
+    background-size: auto;
+    height: 90px;
+    /* opacity: 0.6; */
+}
+
+#bbb{
+    background-image: url("https://i.imgur.com/hYFh9sf.png") ;
+    background-size: cover; 
+    height: 90px;
+    /* opacity: 0.6; */
+
+}
+.bazul{
+    background-image: url("https://geoapps.esri.co/Recursos/appSemillero/bannerApoyoAzul.svg") !important; 
+    background-size: auto;
+    height: 90px;
+    /* opacity: 0.6; */
+}
+.bmorado{
+    background-image: url("https://geoapps.esri.co/Recursos/appSemillero/bannerApoyoMorado.svg") !important; 
+    background-size: auto;
+    height: 90px;
+    /* opacity: 0.6; */
+}
+.bverde{
+    background-image: url("https://geoapps.esri.co/Recursos/appSemillero/bannerApoyoVerde.svg") !important; 
+    background-size: auto;
+    height: 90px;
+    /* opacity: 0.6; */
+}
+.bgris{
+    background-image: url("https://geoapps.esri.co/Recursos/appSemillero/Apoyo.svg") !important; 
+    background-size: auto;
+    height: 90px;
+    /* opacity: 0.6; */
+}
+
+#ccc{
+    background-image: url("https://i.imgur.com/kna4wuS.png") ;
+    background-size: cover; 
+    height: 90px;
+    /* opacity: 0.6; */
+
+
+}
+.cazul{
+    background-image: url("https://geoapps.esri.co/Recursos/appSemillero/bannerDesarrolloAzul.svg") !important; 
+    background-size: auto;
+    height: 90px;
+    /* opacity: 0.6; */
+}
+.cmorado{
+    background-image: url("https://geoapps.esri.co/Recursos/appSemillero/bannerDesarrolloMorado.svg") !important; 
+    background-size: auto;
+    height: 90px;
+    /* opacity: 0.6; */
+}
+.cverde{
+    background-image: url("https://geoapps.esri.co/Recursos/appSemillero/bannerDesarrolloVerde.svg") !important; 
+    background-size: auto;
+    height: 90px;
+    /* opacity: 0.6; */
+}
+.cgris{
+    background-image: url("https://geoapps.esri.co/Recursos/appSemillero/Desarrollo.svg") !important; 
+    background-size: auto;
+    height: 90px;
+    /* opacity: 0.6; */
+}
+#titi{
+    position: absolute;
+    color:black !important;
+    z-index: 4444;
+    left: 30%;
+
+}
+
+.card-body{
+    background-color: #fff;
+    font-family: "AvenirNextLTPro-Light", Sans-serif;
+}
+
+.table {
+position: relative;
+padding-right: 30% !important;
+}
+.card-header-third span i:hover,.card-section-third span i:hover{
+    box-shadow:1px 1px 15px #000;
+}
+
+/*efecto shadows para todas las tarjetas*/
+.card-section{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+/*Para el efecto sombra al pasar por encima el mouse*/
+.card-section:hover{
+    box-shadow:1px 1px 20px #d2d2d2;
+}
+
+.espacio{
+    padding-top: 20px;
+}
+
+.espaciomodal{
+    /* padding-top: 120px; */
+    
+}
+
+/*Estilo de las imagenes de los colaboradores*/
+
+.img_colaboradores{
+border-radius: 50%; 
+width: 60px; 
+height: 60px;
+}
+#colorp{
+    color: black !important;
+}
+/* cambio img del carrucel */
+#im1{
+    background-image: url("https://i.imgur.com/7foA0SY.png");
+    background-size: cover;
+    height:"420px";
+}
+#im2{
+    background-image: url("https://i.imgur.com/0gxVWCA.png");
+    background-size: cover;
+    height:"420px";
+}
+#im3{
+    background-image: url("https://i.imgur.com/PWwoQcu.png");
+    background-size: cover;
+    height:"420px";
+}
+/* color azul  */
+.cambiarc1{
+    background-image: url("https://geoapps.esri.co/Recursos/appSemillero/bannerTipsAzul.svg") !important;
+    background-size: cover;
+    height:"420px";
+}
+.cambiarc11{
+    background-image: url("https://geoapps.esri.co/Recursos/appSemillero/bannerCumplea%C3%B1osAzul.svg") !important;
+    background-size: cover;
+    height:"420px";
+}
+.cambiarc111{
+    background-image: url("https://geoapps.esri.co/Recursos/appSemillero/bannerMapaAzul.svg") !important;
+    background-size: cover;
+    height:"420px";
+}
+
+/* color morado */
+.cambiarc2{
+    background-image: url("https://geoapps.esri.co/Recursos/appSemillero/bannerTipsMorado.svg") !important;
+    background-size: cover;
+    height:"420px";
+}
+.cambiarc12{
+    background-image: url("https://geoapps.esri.co/Recursos/appSemillero/bannerCumplea%C3%B1osMorado.svg") !important;
+    background-size: cover;
+    height:"420px";
+}
+.cambiarc122{
+    background-image: url("https://geoapps.esri.co/Recursos/appSemillero/mapaMorado.svg") !important;
+    background-size: cover;
+    height:"420px";
+}
+
+/* color verde */
+.cambiarc3{
+    background-image: url("https://geoapps.esri.co/Recursos/appSemillero/bannerTipsVerde.svg") !important;
+    background-size: cover;
+    height:"420px";
+}
+.cambiarc13{
+    background-image: url("https://geoapps.esri.co/Recursos/appSemillero/bannerCumpleanosVerde.svg") !important;
+    background-size: cover;
+    height:"420px";
+}
+.cambiarc133{
+    background-image: url("https://geoapps.esri.co/Recursos/appSemillero/mapaVerde.svg") !important;
+    background-size: cover;
+    height:"420px";
+}
+/* color gris */
+.cambiarc4{
+    background-image: url("https://geoapps.esri.co/Recursos/appSemillero/bannerCumplea%C3%B1osGris.svg") !important;
+    background-size: cover;
+    height:"420px";
+}
+.cambiarc14{
+    background-image: url("https://geoapps.esri.co/Recursos/appSemillero/bannerCumplea%C3%B1osGris.svg") !important;
+    background-size: cover;
+    height:"420px";
+}
+.cambiarc134{
+    background-image: url("https://geoapps.esri.co/Recursos/appSemillero/mapaGris.svg") !important;
+    background-size: cover;
+    height:"420px";
+}
+/* cambio color de la barra  */
+.alert-primary1 {
+    color: #ffffff;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+    background: #122337;
+}
+.alert-primary2 {
+    color: #ffffff;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+    background: #694B99;
+    font-family: "AvenirNextLTPro-Bold", Sans-serif;
+}
+.alert-primary3 {
+    color: #ffffff;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+    background:#048678;
+}
+.alert-primary4 {
+    color: #ffffff;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+    background:#747071;
+}
+/* color de los botones  */
+.cambiobt1{
+    color: #fff;
+    background-color: #122337 !important;
+    border-color: #122337 !important;
+    }
+
+    .cambiobt1:hover {
+        color: #fff;
+        background-color: #6A93CD !important;
+        border-color:#6A93CD !important;
+        }
+.cambiobt2{
+    color: #fff;
+    background-color: #694B99 !important;
+    border-color: #694B99 !important;
+    font-family: "AvenirNextLTPro-Bold", Sans-serif;
+    }
+      
+.cambiobt2:hover {
+    color: #fff;
+    background-color: #84216B !important;
+    border-color:#84216B !important;
+    }
+    .cambiobt3{
+        color: #fff;
+        background-color: #048678 !important;
+        border-color: #048678 !important;
+        }
+          
+    .cambiobt3:hover {
+        color: #fff;
+        background-color:  #5FD3CD !important;
+        border-color: #5FD3CD !important;
+        }   
+        .cambiobt4{
+            color: #fff;
+            background-color: #747071 !important;
+            border-color: #747071 !important;
+            }
+              
+        .cambiobt4:hover {
+            color: #fff;
+            background-color:  #413F40 !important;
+            border-color: #413F40 !important;
+            }   
+            #cambiosdecolor{
+                padding-right: 20% !important;
+                padding-left: -20px !important;
+                width: 700px;
+            }

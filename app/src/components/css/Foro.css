@@ -1,0 +1,164 @@
+.body1{
+    background-image:url("../img/fondo_simple.jpeg");
+  }
+.li {
+    text-decoration: none;
+  position: relative;
+  color: white;
+  background-color: #0079C1;
+  border: 1px solid #0079C1;
+  border-radius: 1px;
+  padding: 5px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.li:hover {
+    color: #0079C1;
+    background-color: white;
+  }
+  .li12 {
+    text-decoration: none;
+  position: absolute;
+  color: #cadde5;
+  /* background-color: #0079C1; */
+  /* border: 1px solid #0079C1; */
+  /* border-radius: 1px}; */
+  padding: 5px 15px;
+  margin-left: 60%;
+  margin-top: 5%;
+  width: 400px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 1;
+}
+
+  .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .session {
+    position: absolute;
+    margin-top: 11%;
+    margin-right: 10%;
+    padding-bottom: 20px;
+    width: 100%;
+    border-radius: 10px;
+    max-width: 500px;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s all ease;
+  }
+  .input {
+    font-size: 1em;
+    color: black;
+    margin: 6px 0 6px 0;
+    /* border-radius: 40px; */
+    padding: 10px 15px;
+    background: white;
+    outline: none;
+    text-decoration: none;
+    border: 1px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .contenido1{
+    position: relative;
+      padding-left: 10%;
+      padding-top: 1%;
+  }
+
+  /* diseño del moda */
+  
+#mostrarOcultar{
+  display: none;
+}
+.comentario{
+  background-color: #f1eded;
+  border-radius: 14px;
+  width: 300px;
+  margin-left: 12%;
+  padding: 8px;
+}
+h6{
+
+  padding-bottom: -4px !important;
+  color: black;
+}
+.gafas{
+  background-image: url(../img/gafas.png);
+  background-size: contain;
+  width: 50px;
+  height: 19px;
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+/* calendario   */
+/* * { margin: auto; } */
+h1 { text-align: center; padding: 0.5em; }
+#calendario { border: 4px double black ; max-width: 400px; 
+              background-color:#fffafa; text-align: center;
+            position: absolute; margin-left: 60%; margin-top: 10%; }
+#diasc { border: 1px solid black; border-collapse: 
+         separate; border-spacing: 4px; }
+#diasc th,#diasc td { font: normal 14pt arial; width: 70px; height: 30px; }
+#diasc th { color: #990099; background-color: #5ecdec }
+#diasc td { color: #492736; background-color: #9bf5ff }
+#fechaactual { font: bold 12pt arial; padding: 0.4em }
+#fechaactual i { cursor: pointer ; }
+#fechaactual i:hover { color: blue; text-decoration: underline; }
+#buscafecha { background-color: #663366; color: #9bf5ff; padding: 5px }
+#buscafecha select, #buscafecha input  { background-color: #9bf5ff; 
+            color: #990099; font: bold 10pt arial;  }
+#buscafecha [type=text]  { text-align: center; }
+#buscafecha  [type=button] { cursor: pointer; }
+#anterior { float: left; width: 100px; font: bold 12pt arial;
+          padding: 0.5em 0.1em; cursor: pointer ; }
+#posterior { float: right; width: 100px; font: bold 12pt arial; 
+          padding: 0.5em 0.1em; cursor: pointer ;}
+#anterior:hover {color: blue;text-decoration: underline;}
+#posterior:hover {color: blue; text-decoration: underline;}
+#titulos { font: normal 20pt "AvenirNextLTPro-Bold", Sans-serif; padding: 0.2em; }
+#foroso{
+    text-align: left; margin-left: 10%; color: #0079C1; 
+    font-family: "AvenirNextLTPro-Bold", Sans-serif;
+}
+#style123{
+    border-radius: 7px;
+}
+#style321{
+    margin-left: 2%; cursor: pointer;
+}
+.insty{
+    border-radius: 7px; 
+    margin-left: 12%; 
+    margin-bottom: 2%;
+}
+#style543{
+    border-radius: 7px;
+}
+#tay{
+width: 33rem;
+}
+#s123tyle{
+    border-radius: 7px;
+}
+#sty11le{
+    margin-left: 2%; cursor: pointer;
+}
+#pae{
+    border-radius: 7px; 
+    margin-left: 5%; 
+    margin-bottom: 2%;
+}
+.modal-header{
+  
+  background: linear-gradient(-90deg, #4A00E0, #8E2DE2) !important; 
+}
+#exampleModalLabel{
+  color:white;
+}

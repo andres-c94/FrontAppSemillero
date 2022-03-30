@@ -1,0 +1,61 @@
+/*Margen para tabla 1, estan separadas*/
+#primeraTabla{
+	padding-bottom: 20px;
+}
+/*Margen Boton dentro del Modal
+Editar Proyecto*/
+#Btn-Modal{
+	margin: 20px;
+	margin-top: 50px;
+}
+/*Manejo de Modal Editar Proyecto*/
+#color_letra_banner{
+	color:#fff;
+	text-align: center;
+	margin-bottom: auto;
+}
+
+/*Encargado de dar a la 
+segunda tabla espacio con referencia
+al botton Registrar tarea*/
+#Espacio{
+	padding: 5px;
+}
+/*Encargadp de dar espacio
+al titulo Consulta Proyecto*/
+#ubicacion{
+	padding: 30px;
+}
+
+/*Cuerpo de la Pagina*/
+#body1{
+	background-image:url("./img/fondo.jpeg");
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	max-height: max-content;
+}
+/*Color Prioridad*/
+.table-danger{
+	background-color: #E71837;
+}
+/*Color Estado*/
+.table-warning{
+	background-color: #FC9303;
+}
+#hola{
+	width: 1010px;
+}
+#color{
+	color: black !important;
+}
+#modales{
+	margin-left: 50%;
+	/* padding-left: 10%; */
+	width: 900px !important;
+}
+#editarproyecto{
+	width: 1200px !important;
+}

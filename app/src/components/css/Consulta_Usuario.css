@@ -1,0 +1,475 @@
+.body5{
+  background-image: url("../img/fondo_simple.jpeg");
+  overflow: hidden;
+}
+.oculto{
+  display: none;
+}
+.blanco{
+    color: white;
+}
+.btn{
+  background-color: #0070D1;
+  border-color: #0070D1;
+}
+.dropdown-item:hover{
+  cursor: pointer;
+}
+.row{
+   text-align: left;
+}
+
+/* Cambio color tarjeta modal */
+.row3{
+  text-align: center;
+}
+.rowdatos{
+  text-align: justify;
+}
+.swal-overlay {
+  top: -45%;
+}
+.row2{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.banner{
+   background-color: black;
+  text-align: center;
+  background-image: url("../img/uc-social-share.jpg");
+  background-position: center;
+  background-size: cover;
+  -webkit-box-shadow: 10px 10px 8px 0px rgba(219,219,219,1);
+-moz-box-shadow: 10px 10px 8px 0px rgba(219,219,219,1);
+box-shadow: 10px 10px 8px 0px rgba(219,219,219,1);
+}
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.separator::before, .separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #DEDEDE;
+}
+.separator::before {
+  margin-right: .25em;
+}
+.separator::after {
+  margin-left: .25em;
+}
+.text{
+font-size: medium;
+}
+        .tarjeta{
+          background-color: #E1E3E8;
+            align-items: center;
+            margin: 1%;
+            width: 180px !important;
+            -webkit-box-shadow: 10px 10px 24px 0px rgba(219,219,219,1);
+            -moz-box-shadow: 10px 10px 24px 0px rgba(219,219,219,1);
+            box-shadow: 10px 10px 24px 0px rgba(219,219,219,1);
+        }
+        /* Zoom para tarjetas */
+        .tarjeta:hover{
+          transform: scale(1.2);
+          cursor: pointer
+        }
+        .imagen{
+            width: 80% !important;
+            height: 150px;
+            border-radius: 50% !important;
+            margin-left: -0.5rem;
+            /* margin-right: 20rem; */
+        }
+        .contenido{
+            display: none;
+        }
+        .table{
+          background-color: white;
+          margin-left: 5%;
+          margin-right: 5%;
+          width: 90%;
+          /* display: none; */
+      }
+      .user-card-full {
+        overflow: hidden
+    }
+    
+    .mod {
+        border-radius: 5px;
+        -webkit-box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+        box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+        border: none;
+        margin-bottom: 30px
+    }
+    
+    .m-r-0 {
+        margin-right: 0px
+    }
+    
+    .m-l-0 {
+        margin-left: 0px
+    }
+    
+    .user-card-full .user-profile {
+        border-radius: 5px 0 0 5px
+    }
+    /* Modal apartado usuario */
+    .bg-c-lite-green {
+    background: -webkit-gradient(linear, left top, right top, from(#83B1CB), to(#0044B1));
+    background: linear-gradient(to right, #0044B1,#83B1CB);
+    justify-content: center;
+    }
+    
+    .user-profile {
+        padding: 20px 0
+    }
+    .m-b-25 {
+        margin-bottom: 25px
+    }
+    .user-card-full{
+      margin: 0px;
+    }
+    .contenido{
+      height: 20%;
+    }
+    .img-radius {
+        border-radius: 5px
+    }
+
+    h6 {
+      font-size: 12px
+    }
+    
+    .mod .card-block p {
+        line-height: 15px;
+        display: initial;
+        
+    }
+    @media only screen and (min-width: 1400px) {
+        p {
+            font-size: 14px
+        }
+    }
+    .modal-dialog {
+      margin-top: 800px;
+      max-width: 800px !important;
+      margin: 9.0rem auto !important;
+  }
+    .card-block {
+        padding: 1.25rem;
+    }
+    
+    .b-b-default {
+        border-bottom: 1px solid #e0e0e0
+    }
+    .m-b-20 {
+        margin-bottom: 20px
+    }
+    
+    .p-b-5 {
+        padding-bottom: 5px !important
+    }
+    
+    .m-b-10 {
+        margin-bottom: 10px
+    }
+    
+    .text-muted {
+        color: #919aa3 !important
+    }
+    
+    .b-b-default {
+        border-bottom: 1px solid #e0e0e0
+    }
+    .p-b-5 {
+        padding-bottom: 5px !important
+    }
+    
+    .user-card-full .social-link li {
+        display: inline-block
+    }
+    
+    .user-card-full .social-link li a {
+        font-size: 20px;
+        margin: 0 10px 0 0;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out
+    }
+    .icon:hover{
+      cursor: pointer;
+    }
+    #cu1{
+      background: url("../img/fondo_simple.jpeg");
+    }
+    #cu2{
+      width: 18rem;
+    }
+    #cu3{
+      width: 60rem;
+      color: black;
+      margin: 30px;
+      margin-left: 97px;
+    }
+    .btn-outline-secondary {
+        background-color: white;
+border-color: #CED4DA;
+}
+#contenidogeneral{
+margin-top: 3%;
+margin-left: 4%;
+}
+
+
+/* Color para tarjetas de usuarios */
+:root{
+--color: purple;
+--color1: #d11507;
+--color2: #39b3e9;
+--color3: #6ae371;
+--color4: orange;
+}
+
+/* Color modales */
+.bg-c-lite-green {
+background-color: (#000);
+background: (#000);
+
+}
+/* Dimensiones de las tarjetas */
+.box-cards{
+height: 350px;
+width:  90%;
+margin: 80px auto;
+margin-bottom:100px ;
+display: flex;
+margin: 30px;
+justify-content:  space-around;
+align-items:  center;
+
+}
+
+/* Apartado para los textos en 
+las tarjetas */
+.box-cards .box{
+background-color: #FFF;
+/* Eliminacion espacion en blanco */
+height: 265px;
+width:  89.7%;
+color: white;
+
+}
+/* Color para los bordes de la primera tarjeta*/
+.box1{
+border-top: 8px solid var(--color1);
+border-bottom: 8px solid var(--color1);
+border-left: 8px solid var(--color1);
+border-right: 8px solid var(--color1);
+transform: translateX(-28em);
+animation: primero .5s linear forwards;
+cursor: pointer;
+}
+/* Color para los bordes de la segunda tarjeta*/
+.box2{
+border-top: 8px solid var(--color2);
+border-bottom: 8px solid var(--color2);
+border-left: 8px solid var(--color2);
+border-right: 8px solid var(--color2);
+transform: translateX(-28em);
+animation: primero .5s linear forwards;
+cursor: pointer;
+}
+/* Color para los bordes de la tercera tarjeta*/
+.box3{
+border-top: 8px solid var(--color3);
+border-bottom: 8px solid var(--color3);
+border-left: 8px solid var(--color3);
+border-right: 8px solid var(--color3);
+transform: translateX(-28em);
+animation: primero .5s linear forwards;
+cursor: pointer;
+}
+/* Color para los bordes de la cuarta tarjeta*/
+.box4{
+border-top: 8px solid var(--color4);
+border-bottom: 8px solid var(--color4);
+border-left: 8px solid var(--color4);
+border-right: 8px solid var(--color4);
+transform: translateX(-28em);
+animation: primero .5s linear forwards;
+cursor: pointer;
+}
+/* Color para los bordes de la quinta tarjeta*/
+.box5{
+border-top: 8px solid var(--color);
+border-bottom: 8px solid var(--color);
+transform: translateX(-28em);
+animation: primero .5s linear forwards;
+cursor: pointer;
+}
+/* Tamaño para la imagen */
+.box img{
+height: 250px;
+width: 250px;
+object-fit: cover;
+cursor: pointer;
+}
+/* Estilo para los bottones */
+.box .botton{
+padding: 10px;
+width: 80%;
+font-family: sans-serif;
+text-align: center;
+/* Manejo de la posicion del bottom */
+margin: 20px auto;
+display: block;
+position: relative;
+z-index: 2;
+font-weight: bold;
+cursor: pointer;
+}
+/* Color para los botones de la 
+primera tarjeta*/
+.botton1{
+background-color: var(--color1);
+display: flex;
+padding: 5px;
+}
+/* Color para los botones de la
+segunda etiqueta */
+.botton2{
+background-color: var(--color2);
+}
+/* Color para los botones de la
+tercera etiqueta */
+.botton3{
+background-color: var(--color3);
+}
+/* Color para los botones de la
+cuarta etiqueta */
+.botton4{
+background-color: var(--color4);
+}
+/* Color para los botones de la
+quinta etiqueta */
+.botton5{
+background-color: var(--color);
+}
+.box p{
+font-family: sans-serif;
+text-align: center;
+color: black;
+font-size: .9em;
+width:80%;
+margin:50px auto;
+}
+/* Rotacion para el nombre
+del usuario */
+/* .box:hover .botton{
+transform:  translateY(-80px);
+animation: segundo .60s linear forwards;
+
+} */
+/* Propiedad para mantener las tarjetas
+centradas y una al lado de otra */
+#containestarjetas{
+display: grid;
+grid-template-columns: 0fr 0fr 0fr 0fr;
+margin: auto;
+}
+#containestarjetas{
+margin-left: 45px;
+margin-right: 30px;
+}
+/* Animacion para las tarjetas */
+@keyframes primero{
+100%{
+  transform:  translateX(0);
+}
+}
+/* @keyframes segundo{
+100%{
+  transform:  translateY(1);
+}
+} */
+
+/* Diseño barra de busqueda */
+.buscadorUsuarios{
+position: absolute;
+padding: 5px;
+}
+.buscadorUsuarios input{
+width: 0px;
+height: 40px;
+padding: 0 20px;
+font-size: 18px;
+color: #000;
+outline: none;
+border: 1px solid silver;
+border-radius: 30px;
+transition: all 0.6s ease;
+}
+/* Btn para barra de busqueda */
+.btnbuscador{
+position: absolute;
+top: 0;
+right: 0;
+width: 55px;
+height: 55px;
+line-height: 55px;
+text-align: center;
+color: white;
+font-size: 20px;
+border-radius: 50%;
+cursor: pointer;
+}
+/* Desplasar la barra de busqueda */
+.buscadorUsuarios:hover input{
+width: 240px;
+}
+/* Mantener la barra abierta hasta que se le de click
+por fuera */
+.buscadorUsuarios input:focus{
+width:240px;
+}
+.prueba{
+margin-right: 8%;
+}
+/* Tamaño de imagen dentro de la tarjeta */
+.row4{
+justify-content: center;
+}
+#imagenmodal{
+margin-left: 5px;
+width: 80% !important;
+height: 150px;
+border-radius: 50% !important;
+justify-content: center;
+text-align: right;
+}
+.dropdown-menu1 {
+padding-bottom: 100px;
+background-color: transparent; 
+}
+.diseñoPagina{
+padding-top: 50px;
+/* padding-bottom: 200%; */
+}
+.ejemplo123{
+display: block !important;
+}
+.ejemplo12{
+display: none !important;
+}
+#mostrarActivos{
+display: block !important;
+}
+.input-group>.custom-file, .input-group>.custom-select, .input-group>.form-control, .input-group>.form-control-plaintext {
+  position: relative;
+  flex: 1 1 auto;
+  width: 1%;
+  min-width: 0;
+  height: 50px;
+}

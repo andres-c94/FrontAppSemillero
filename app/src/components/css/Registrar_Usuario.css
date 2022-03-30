@@ -1,0 +1,21 @@
+.body4{
+    background: url("../img/fondo_simple.jpeg");
+}
+#s1tyle{
+    width: 35rem;
+}
+#s2tyle{
+    border-radius: 150px; 
+    width: 150px; 
+    height: 150px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block; 
+    justify-content: center;     
+}
+#s3tyle{
+    text-align: center;
+}
+#s4tyle{
+    text-align: left;
+}

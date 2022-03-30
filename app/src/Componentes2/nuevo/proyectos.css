@@ -1,0 +1,120 @@
+
+.contenidoimgen {
+	background-image:url("../img/fondo_simple.jpeg");
+}
+.form_sea {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.banner{
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(-90deg, #8E2DE2, #4A00E0);
+	font-family: "AvenirNextLTPro-Bold", Sans-serif;
+}
+
+#color_letra_banner{
+	color:#FFFFFF;
+	text-align: left;
+}
+
+.tarjeta{
+	max-width: 30rem;
+}
+
+.tarjeta2{
+	max-width: 200rem;
+}
+
+#color_letra_banner_2{
+	text-align: left;
+	color: #fff;
+}
+
+#pad{
+	padding: 10px;
+	display: flex ;
+	flex-wrap: wrap;
+}
+
+.pad{
+	margin-top: 20px;
+
+}
+
+#row1 {
+	margin-left: auto;
+	margin-right: auto ;
+
+}
+
+
+
+#containerid{
+
+	display: flex;
+    width: 100% !important;
+}
+
+
+.containercard {
+	display: -webkit-flex;
+	display: flex;
+	margin-left: 55px;
+	margin-top: 20px;
+	-webkit-flex-flow: column wrap;
+	flex-flow: column wrap;
+	width: auto;
+}
+
+.cambios{
+	border-radius: 1em;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: column wrap;
+	flex-flow: column wrap;
+	flex:1;
+}
+
+.card_color {
+	margin-top: 14px;
+	border-radius: 1em;
+	background-color: #E6E6E6 !important;
+    font-family: "AvenirNextLTPro-Light", Sans-serif;
+}
+
+.buttons {
+	float: right;
+}
+
+.cambios, .col-5 {
+	border-radius: 1em;
+    margin: 20px;
+	flex:10;
+}
+
+@media (min-width: 768px) {
+	.cambios{
+	  display: -webkit-flex;
+	  display: flex;
+	  -webkit-flex-flow: row wrap;
+	  flex-flow: row wrap;
+	  flex:1;
+	}
+}
+label{
+	color: black;
+	font-family:"AvenirNextLTPro-Bold", Sans-serif;
+}
+h3{
+	color: black;
+    font-size: 16px;
+	font-family:"AvenirNextLTPro-Bold", Sans-serif;
+}
+a.btn.btn-secondary {
+	font-family:"AvenirNextLTPro-Bold", Sans-serif;
+}

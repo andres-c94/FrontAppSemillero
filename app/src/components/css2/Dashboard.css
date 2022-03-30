@@ -1,0 +1,404 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+
+
+.fa-2x {
+font-size: 2em;
+}
+.fa {
+position: relative;
+display: table-cell;
+width: 60px;
+height: 36px;
+text-align: center;
+vertical-align: middle;
+font-size:20px;
+}
+
+
+.main-menu:hover,nav.main-menu.expanded {
+width:230px;
+overflow:visible;
+}
+.asdf{
+  background: linear-gradient(to right, #254763,#4182FF);
+left: 20%;
+}
+.main-menu {
+  background: linear-gradient(to right, #254763,#4182FF);
+border-right:1px solid #e5e5e5;
+position: fixed;
+top:0;
+bottom:0;
+height:100%;
+left:0;
+width:56px;
+overflow:hidden;
+-webkit-transition:width .05s linear;
+transition:width .05s linear;
+z-index:1000;
+}
+.main-menu1234 {
+  background:  #048678;
+border-right:1px solid #e5e5e5;
+position: fixed;
+top:0;
+bottom:0;
+height:100%;
+left:0;
+width:56px;
+overflow:hidden;
+-webkit-transition:width .05s linear;
+transition:width .05s linear;
+z-index:1000;
+}
+.main-menu121111 {
+  background:  #747071;
+border-right:1px solid #e5e5e5;
+position: fixed;
+top:0;
+bottom:0;
+height:100%;
+left:0;
+width:56px;
+overflow:hidden;
+-webkit-transition:width .05s linear;
+transition:width .05s linear;
+z-index:1000;
+}
+.main-menu11 {
+  background: #122337;
+border-right:1px solid #e5e5e5;
+position: fixed;
+top:0;
+bottom:0;
+height:100%;
+left:0;
+width:56px;
+overflow:hidden;
+-webkit-transition:width .05s linear;
+transition:width .05s linear;
+/* -webkit-transform:translateZ(0) scale(1,1); */
+z-index:1000;
+}
+.main-mn11 {
+  background: #85a69d;
+border-right:1px solid #e5e5e5;
+position: fixed;
+top:0;
+bottom:0;
+height:100%;
+left:0;
+width:56px;
+overflow:hidden;
+-webkit-transition:width .05s linear;
+transition:width .05s linear;
+/* -webkit-transform:translateZ(0) scale(1,1); */
+z-index:1000;
+}
+.main-mn2 {
+  background: #f6be61;
+border-right:1px solid #e5e5e5;
+position: fixed;
+top:0;
+bottom:0;
+height:100%;
+left:0;
+width:56px;
+overflow:hidden;
+-webkit-transition:width .05s linear;
+transition:width .05s linear;
+/* -webkit-transform:translateZ(0) scale(1,1); */
+z-index:1000;
+}
+.main-menu12{
+  background: #694B99;
+border-right:1px solid #e5e5e5;
+position: fixed;
+font-family: "AvenirNextLTPro-Bold", Sans-serif;
+top:0;
+bottom:0;
+height:100%;
+left:0;
+width:56px;
+/* overflow:hidden; */
+-webkit-transition:width .05s linear;
+transition:width .05s linear;
+/* -webkit-transform:translateZ(0) scale(1,1); */
+z-index:1000;
+}
+
+
+.main-menu>ul {
+margin:7px 0;
+}
+
+.main-menu li {
+position:relative;
+display:block;
+width:230px;
+height: 100%;
+}
+
+.main-menu li>a {
+position:relative;
+display:table;
+border-collapse:collapse;
+border-spacing:0;
+color:#ffff;
+ font-family: arial;
+font-size: 14px;
+text-decoration:none;
+/* -webkit-transform:translateZ(0) scale(1,1); */
+-webkit-transition:all .1s linear;
+transition:all .1s linear;
+  
+}
+
+.main-menu .nav-icon {
+position:relative;
+display:table-cell;
+width:60px;
+height:36px;
+text-align:center;
+vertical-align:middle;
+font-size:18px;
+}
+
+.main-menu .nav-text {
+position:relative;
+display:table-cell;
+vertical-align:middle;
+width:190px;
+  font-family: 'AvenirNextLTPro-Light', Sans-serif;
+}
+
+.main-menu>ul.logout {
+position:absolute;
+left:0;
+bottom:0;
+}
+
+.no-touch .scrollable.hover {
+overflow-y:hidden;
+}
+
+.no-touch .scrollable.hover:hover {
+overflow-y:auto;
+overflow:visible;
+}
+
+a:hover,a:focus {
+text-decoration:none;
+}
+
+nav {
+-webkit-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+-o-user-select:none;
+user-select:none;
+}
+
+nav ul,nav li {
+outline:0;
+margin:0;
+padding:0;
+}
+
+/* .main-menu li:hover>a,nav.main-menu li.active>a,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus,.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,.dashboard-page nav.dashboard-menu ul li.active a {
+  color:#fff;
+  background-color: #6A93CD;
+  } */
+  .main-menu li:hover>a {
+    color:#fff;
+    background-color: #5F9AF9;
+    }
+    .main-menu1hov li:hover>a{
+      color:#fff;
+    background-color:  #6A93CD;
+    }
+    .maenu1hov li:hover>a{
+      color:#fff;
+    background-color:  #3e6458;
+    }
+    .mau1ho li:hover>a{
+      color:#fff;
+    background-color:  #d18920;
+    }
+    .main-menu1ho li:hover>a{
+      color:#fff;
+    background-color:  #84216B;
+    }
+    .main-menu1hosaa li:hover>a{
+      color:#fff;
+    background-color:  #413F40;
+    }
+    .main-menu1h li:hover>a{
+      color:#fff;
+    background-color:  #5FD3CD;
+    }
+    
+.area {
+float: left;
+background: #e2e2e2;
+width: 100%;
+height: 100%;
+--z-fixed: 100;
+}
+@font-face {
+  font-family: 'Titillium';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(https://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');
+}
+/* estilos nav  */
+/*===== VARIABLES CSS =====*/
+:root{
+  --header-height: 3rem;
+  --nav-width: 68px;
+
+  /*===== AQUI GUARDO LAS VARIBLES DE LOS COLORES =====*/
+  --first-color: #8E2DE2 !important; 
+  --first-color-light: #8E2DE2 !important;
+  --white-color:#8E2DE2 !important;
+  
+  /*===== FUENTES Y TIPOGRAFIAS =====*/
+  --body-font: 'AvenirNextLTPro-Light', Sans-serif;
+  --normal-font-size: 1rem;
+  
+  /*===== z index =====*/
+  --z-fixed: 100;
+}
+ 
+
+a{
+    text-decoration: none;
+  }
+  
+  /* ===== ESTILOS DEL HEADER ===== */
+   .header1{
+    width: 100%;
+    height: var(--header-height);
+    position: fixed;
+    top: -7%;
+    left: -3%;
+    padding-right: 1%;
+    z-index: var(--z-fixed);
+    transition: .5s;
+  }
+  /* ===== ESTILOS DE LOS ICONOS DE CERRAR Y ABRIR EL MENÚ ===== */
+.header__toggle1{
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .header__img1{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .header__img1 img{
+    width: 40px;
+  }
+  .asdf4{
+    background: #747071!important;
+  left: 20%;
+  } 
+.asdf3{
+  background: #048678!important;
+left: 20%;
+}  
+.asdf1{
+  background: #122337!important;
+left: 20%;
+} 
+.asdf5{
+  background: #85a69d!important;
+left: 20%;
+}
+.asdf6{
+  background: #f6be61!important;
+left: 20%;
+} 
+ .asdf2{
+  background: #694B99!important;
+left: 20%;
+}   
+
+#sasa{
+color: white;
+  padding-left: 1056px !important;
+  font-family: "AvenirNextLTPro-Bold", Sans-serif;
+}
+/* colores de el cambio color  */
+.colorde1{
+  color: #fff;
+}
+.colorde1:hover {
+  color: #fff;
+  background-color: #6A93CD !important;
+  border-color:#6A93CD !important;
+  }
+  .colorde2{
+    color: #fff;
+  }
+  .colorde2:hover {
+    color: #fff;
+    background-color: #84216B !important;
+    border-color:#84216B !important;
+    }
+
+    .colorde3{
+      color: #fff;
+    }
+    .colorde3:hover {
+      color: #fff;
+      background-color:  #5FD3CD !important;
+      border-color: #5FD3CD !important;
+      }
+      .colorde4{
+        color: #fff;
+      }
+      .colorde4:hover {
+        color: #fff;
+        background-color:  #413F40 !important;
+        border-color: #413F40 !important;
+        }
+        .colorde5{
+          color: #fff;
+        }
+        .colorde5:hover {
+          color: #fff;
+          background-color: #3e6458 !important;
+          border-color:#3e6458 !important;
+          }
+          .colorde6{
+            color: #fff;
+          }
+          .colorde6:hover {
+            color: #fff;
+            background-color: #d18920 !important;
+            border-color:#d18920 !important;
+            }
+
+
+        .idrol2{
+          display: none !important;
+        }
+        .idrol3{
+          display: block !important;
+        }
+
+        .interface_selection img {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
